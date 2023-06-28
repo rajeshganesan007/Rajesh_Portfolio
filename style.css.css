@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.main{
+  width: 100%;
+  background:url('port.jpg') ;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+}
+.navbar{
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+ul{
+  margin-top:2%;
+  
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+ul li a{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  margin-top:2%;
+  transition: .4s  ease;
+}
+ul li a:hover{
+  color: rgb(255, 0, 68);
+}
+.info{
+  margin-left: 7%;
+  margin-top: 6%;
+}
+.info h1{
+  font-size: 65px;
+  color: rgb(249, 248, 246);
+  
+}
+.info h3{
+  font-size: 18px;
+  color: rgb(252, 251, 248);
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+.info span{
+  color: rgba(255, 126, 5, 0.909);
+}
+.info :hover{
+  color:chartreuse
+}
+.image{
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+}
+.image img{
+  position: absolute;
+  height: 160%;
+  left: 70%;
+  transform: translate(-55%);
+  bottom:0 ;
+  transition:left 2s ease;
+}
+.image:hover .raj{
+  left:55%;
+}
